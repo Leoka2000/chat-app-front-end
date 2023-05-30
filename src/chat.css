@@ -1,7 +1,4 @@
 
-/* TEMPLATE */
-/* https://codepen.io/sajadhsm/pen/odaBdd */
-/* TEMPLATE */
 .chat-grandpa {
     display: flex;
     justify-content: center;
@@ -24,7 +21,7 @@
     min-width: 40rem;
     
 }
-/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -50,8 +47,7 @@
 header > svg {
     font-size: 1.3rem;
 }
-/* hEADER */
-/* Main */
+
 .main {
     flex: 1;
   overflow-y: auto;
@@ -60,8 +56,6 @@ header > svg {
 overflow-x: hidden;
  height: 100%;
  width: 100%;
- 
-
 }
 .message-bubble {
     width: 100%;
@@ -131,9 +125,7 @@ overflow-x: hidden;
     flex-direction: row-reverse;
 }
   
-/* Main */
 
-/* form */
 
 .form {
 display: flex;
@@ -184,12 +176,9 @@ justify-content: space-between;
     color: rgb(0, 150, 42);
   }
   
-/* form */
 
 @media screen and (max-width: 960px) {
-    .chat-parent {
-    
-       
+    .chat-parent
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 4px;
         flex-direction: column;
